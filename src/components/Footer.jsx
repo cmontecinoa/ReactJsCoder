@@ -4,7 +4,7 @@ import instagramImg from "./images/instagram.svg";
 const Footer = () => {
     return (
         <div className="container-fluid text-light bg-dark">
-            <div className="row py-3">
+            <div className="row">
                 <div className="col-md-3">
                     <h5>Buscar Tienda</h5>
                 </div>
@@ -16,8 +16,10 @@ const Footer = () => {
                 </div>
                 <div className="col-md-3">
                     <h5>Nuestras Redes</h5>
-                    <a><img className="img-fluid" src={facebookImg} width={32}></img></a>
-                    <a><img className="img-fluid" src={instagramImg} width={32}></img></a>
+                    <div className="redes">
+                    <a href="/"><img className="img-fluid" alt="Fb" src={facebookImg} width={32}></img></a>
+                    <a href="/"><img className="img-fluid" alt ="Ig" src={instagramImg} width={32}></img></a>
+                    </div>
                 </div>
 
             </div>

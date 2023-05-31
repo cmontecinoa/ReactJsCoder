@@ -6,13 +6,13 @@ import Banner from './components/Banner';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <Header/>
       <Banner/>
       <ItemListContainer bienvenida={"Bienvenidos"}/>
       <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
