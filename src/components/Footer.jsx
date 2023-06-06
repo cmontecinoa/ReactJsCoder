@@ -1,5 +1,6 @@
 import facebookImg from "./images/facebook.svg";
 import instagramImg from "./images/instagram.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -17,8 +18,8 @@ const Footer = () => {
                 <div className="col-md-3">
                     <h5>Nuestras Redes</h5>
                     <div className="redes">
-                    <a href="/"><img className="img-fluid" alt="Fb" src={facebookImg} width={32}></img></a>
-                    <a href="/"><img className="img-fluid" alt ="Ig" src={instagramImg} width={32}></img></a>
+                    <Link to="/"><img className="img-fluid" alt="Fb" src={facebookImg} width={32}></img></Link>
+                    <Link to="/"><img className="img-fluid" alt ="Ig" src={instagramImg} width={32}></img></Link>
                     </div>
                 </div>
 

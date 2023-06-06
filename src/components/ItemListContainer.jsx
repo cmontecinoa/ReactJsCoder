@@ -1,35 +1,41 @@
-import Card from './Card.jsx';
-import Snap1 from './images/Snap1.png';
-import Snap2 from './images/Snap2.png';
-import Snap3 from './images/Snap3.png';
-import Snap4 from './images/Snap4.png';
+import { useState, useEffect} from "react";
+// import ItemCount from "./ItemCount";
+import ItemList from "./ItemList";
+import productos from "./json/productos.json";
+import { useParams } from "react-router-dom";
 
-function ItemListContainer({ bienvenida }) {
+
+const ItemListContainer = () => {
+
+
+    const [items, setItems] = useState([]);
+    const {id} = useParams();
+
+    useEffect(() => {
+        const promesa = new Promise((resolve) => {
+            setTimeout(() => {
+                resolve( id ? productos.filter(item => item.categoria === id) : productos)
+
+            }, 1000);
+        });
+
+        promesa.then(data => {
+            console.log(data);
+            setItems(data);
+        })
+    }, [id]);
+
+
+
     return (
-
-        <div className="ItemListContainer container">
-            
+        <div className="container my-5">
             <div className="row">
-                <div className="col-md-12 text-center">
-                    <h1>{bienvenida}</h1>
-                </div>
-            </div>
+                
+                    <ItemList productos ={items} />
+                    {/* <ItemCount stock={10} /> */}
 
-
-            <div className="h-100 bg-danger">
-                <div className="row">
-                    <div className="col-md-6"><Card imagen={Snap1} /></div>
-                    <div className="col-md-6"><Card imagen={Snap2} /></div>
-
-                </div>
-
-                <div className="row">
-                    <div className="col-md-6"><Card imagen={Snap3} /></div>
-                    <div className="col-md-6"><Card imagen={Snap4} /></div>
-                </div>
             </div>
         </div>
     )
 }
-
 export default ItemListContainer;

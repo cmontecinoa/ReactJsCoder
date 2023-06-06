@@ -11,6 +11,9 @@
   justify-content: center;
   align-items: center;
   margin: 2rem;
+  background-image: url("./components/images/logo.png");
+  background-size:contain;
+  background-repeat:repeat-x;  
 }
 
 .card-img-top{
@@ -20,4 +23,9 @@
 
 .redes a{
  padding-left: 5px;
+}
+
+.brands{
+  margin-right: 15px;
+  margin-left: 5px;
 }

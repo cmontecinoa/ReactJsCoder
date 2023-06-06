@@ -1,0 +1,76 @@
+ 
+[
+    {
+        "idx": 1,
+        "titulo": "NombreDeEjemplo1",
+        "descripcion": "DescripcionDeEjemplo1",
+        "precio": 1111,
+        "imagen": "/images/Snap1.png",
+        "categoria": "snapbacks",
+        "stock":10
+    },
+    {
+        "idx": 2,
+        "titulo": "NombreDeEjemplo2",
+        "descripcion": "DescripcionDeEjemplo2",
+        "precio": 2222,
+        "imagen": "/images/Snap2.png",
+        "categoria": "snapbacks",
+        "stock":10
+    },
+    {
+        "idx": 3,
+        "titulo": "NombreDeEjemplo3",
+        "descripcion": "DescripcionDeEjemplo3",
+        "precio": 3333,
+        "imagen": "/images/Snap3.png",
+        "categoria": "snapbacks",
+        "stock":10
+    },
+    {
+        "idx": 4,
+        "titulo": "NombreDeEjemplo4",
+        "descripcion": "DescripcionDeEjemplo4",
+        "precio": 4444,
+        "imagen": "/images/Snap4.png",
+        "categoria": "snapbacks",
+        "stock":10
+    },
+    {
+        "idx": 5,
+        "titulo": "NombreDeEjemplo5",
+        "descripcion": "DescripcionDeEjemplo5",
+        "precio": 5555,
+        "imagen": "/images/ropa1.png",
+        "categoria": "streetwear",
+        "stock":10
+    },
+    {
+        "idx": 6,
+        "titulo": "NombreDeEjemplo6",
+        "descripcion": "DescripcionDeEjemplo6",
+        "precio": 6666,
+        "imagen": "/images/ropa2.png",
+        "categoria": "streetwear",
+        "stock":10
+    },
+    {
+        "idx": 7,
+        "titulo": "NombreDeEjemplo7",
+        "descripcion": "DescripcionDeEjemplo7",
+        "precio": 7777,
+        "imagen": "/images/calzado1.png",
+        "categoria": "calzado",
+        "stock":10
+    }
+    ,
+    {
+        "idx": 8,
+        "titulo": "NombreDeEjemplo7",
+        "descripcion": "DescripcionDeEjemplo7",
+        "precio": 8888,
+        "imagen": "/images/calzado2.png",
+        "categoria": "calzado",   
+        "stock":10
+    }
+]
