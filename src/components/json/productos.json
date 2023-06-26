@@ -2,7 +2,7 @@
 [
     {
         "idx": 1,
-        "titulo": "NombreDeEjemplo1",
+        "titulo": "Snapback Nana",
         "descripcion": "DescripcionDeEjemplo1",
         "precio": 1111,
         "imagen": "/images/Snap1.png",
@@ -11,7 +11,7 @@
     },
     {
         "idx": 2,
-        "titulo": "NombreDeEjemplo2",
+        "titulo": "SnapBack Adidas",
         "descripcion": "DescripcionDeEjemplo2",
         "precio": 2222,
         "imagen": "/images/Snap2.png",
@@ -20,7 +20,7 @@
     },
     {
         "idx": 3,
-        "titulo": "NombreDeEjemplo3",
+        "titulo": "SnapBack Templar",
         "descripcion": "DescripcionDeEjemplo3",
         "precio": 3333,
         "imagen": "/images/Snap3.png",
@@ -29,7 +29,7 @@
     },
     {
         "idx": 4,
-        "titulo": "NombreDeEjemplo4",
+        "titulo": "SnapBack L.A.",
         "descripcion": "DescripcionDeEjemplo4",
         "precio": 4444,
         "imagen": "/images/Snap4.png",
@@ -38,7 +38,7 @@
     },
     {
         "idx": 5,
-        "titulo": "NombreDeEjemplo5",
+        "titulo": "Poleron Chicago GoldBlack",
         "descripcion": "DescripcionDeEjemplo5",
         "precio": 5555,
         "imagen": "/images/ropa1.png",
@@ -47,7 +47,7 @@
     },
     {
         "idx": 6,
-        "titulo": "NombreDeEjemplo6",
+        "titulo": "Sudadera CH Adidas/Nba",
         "descripcion": "DescripcionDeEjemplo6",
         "precio": 6666,
         "imagen": "/images/ropa2.png",
@@ -56,7 +56,7 @@
     },
     {
         "idx": 7,
-        "titulo": "NombreDeEjemplo7",
+        "titulo": "AirJordan Sky",
         "descripcion": "DescripcionDeEjemplo7",
         "precio": 7777,
         "imagen": "/images/calzado1.png",
@@ -66,7 +66,7 @@
     ,
     {
         "idx": 8,
-        "titulo": "NombreDeEjemplo7",
+        "titulo": "AirJordan Hell",
         "descripcion": "DescripcionDeEjemplo7",
         "precio": 8888,
         "imagen": "/images/calzado2.png",
