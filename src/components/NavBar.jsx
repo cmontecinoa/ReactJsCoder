@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <div>
-            <ul className="nav justify-content-center">
+        <div >
+            <ul className="nav justify-content-center ">
                 <li className="nav-item">
                     {/* a revisar activeClassName="selected" */}
                     <NavLink className="nav-link text-dark"  to={"/destacados"}> Destacados </NavLink> 

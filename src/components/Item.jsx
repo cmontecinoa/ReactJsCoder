@@ -5,7 +5,7 @@ const Item = ({ producto }) => {
         <>
             <div className="col-md-6 my-3">
                 <div className="card border-0" >
-                    <Link to ={"/item/" + producto.idx} className="text-decoration-none text-dark itemHover">
+                    <Link to ={"/item/" + producto.id} className="text-decoration-none text-dark itemHover">
                     <img className="card-img-top" src={producto.imagen} alt={producto.titulo} />
                     <div className="card-body">
                         <h3 className="card-title">{producto.titulo}</h3>
