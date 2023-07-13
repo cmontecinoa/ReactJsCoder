@@ -7,6 +7,7 @@ import NotFound from './components/NotFound';
 import Destacados from './components/Destacados';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 
 //Routing
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -27,7 +28,7 @@ function App() {
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
           <Route path={"/destacados"} element={<Destacados/>} />
           <Route path={"/cart"} element={<Cart/>} />
-          {/* <Route path={"/cart"} element={<Checkout/>} />  */}
+          <Route path={"/checkout"} element={<Checkout/>} /> 
           <Route path={"/*"} element={<NotFound/>} />
         </Routes>
         

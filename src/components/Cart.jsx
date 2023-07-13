@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { CartContext } from "./context/CartContext";
 import trash from "./images/trash-icon.svg";
 import cartEmpty from "./images/cartEmpty.svg";
+import { Link  } from "react-router-dom";
 
 
 const Cart = () => {
@@ -43,8 +44,10 @@ const Cart = () => {
                                     <td><h4 className="text-danger">Total: ${sumTotal()}</h4></td>
                                 </tr>
                                 <tr>
-                                    <td className=""><button className="btn" title="Vaciar Carrito" onClick={() => clear()}><img alt="Vaciar Carrito" src={cartEmpty} />Vaciar Carrito</button></td>
+                                    <td className="align-middle"><button className="btn" title="Vaciar Carrito" onClick={() => clear()}><img alt="Vaciar Carrito" src={cartEmpty} />Vaciar Carrito</button></td>
+                                    <td className="align-middle"><Link to={"/checkout"} title="Confirmar">Checkout! Confirma tu compra!</Link></td>
                                 </tr>
+                                
                             </tbody>
 
                         </table>
